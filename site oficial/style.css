@@ -1,0 +1,520 @@
+
+body{
+    background-color:#1E1E1E;
+}
+p{
+    color: white;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+}
+h1{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+h2{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+h3{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+a{
+   text-decoration: none;
+   color:white;
+   font-size: 18px;
+   font-family: "Montserrat", sans-serif;
+}
+li{
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.cabecalho ul li a:hover{
+    border-bottom: 2px solid red;
+    transition: 0.3s;
+}
+.cabecalho ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0 0 0 0;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+.cabecalho ul {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 10%;
+    align-items: center;
+}
+.cabecalho ul li{
+    list-style-type: none;
+}
+.cabecalho ul li img{
+    display:flex;
+    padding: 0 0 0 0 ;
+    padding-left: 40%;
+}
+.imgcabecalho{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 10%;
+    align-items: center;
+}
+
+
+
+.titulo{
+   text-align: center;
+}
+
+.servico{
+    display:inline-flex;
+    margin-top: 6%;
+}
+.servico ul li { 
+    text-align: center;
+    list-style-type: none;
+    justify-content: space-around;
+    padding-right: 0%;
+    padding: 2px 0px 2px 0px;
+}
+.servico  a{
+    list-style-type: none;
+    text-decoration: none;
+    color: red;
+    text-align: center;
+}
+
+
+
+.empresa .menu{
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    background:linear-gradient(325deg, #D70304 1%, #660303 99%);
+    padding: 30px 0px;
+}
+.empresa .menu h1{
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    display: flex;
+    font-size: 16px;
+    margin: 0px 0px 0px 30px;
+}
+.empresa .menu h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    display: flex;
+    font-size: 31px;
+    margin: 0px 0px 0px 30px;
+}
+.empresa  h3{
+    color: red;
+}   
+.empresa .oq img{
+    float:right;
+    border: 2px solid red;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    max-width: 600px;
+}
+.empresa .oq .texto {
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    max-width: 900px;
+}
+.empresa .menu{
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    background:linear-gradient(325deg, #D70304 1%, #660303 99%);
+    padding: 30px 0;
+    color: white;
+}
+.objetivo{
+    display: inline-flex;
+
+}
+.empresa .objetivo{
+    display: inline-flex;
+    justify-content: space-between;
+}
+.empresa .objetivo .missao{
+    text-align: center;
+    width: 100%;
+   margin-left: 40px;
+  
+}
+.empresa .objetivo .visao{
+    text-align: center;
+    width: 100%;
+    margin-left: 90px;
+  
+}
+.empresa .objetivo .valores{
+    text-align: center;
+    width: 100%;
+    margin-right: 20px;
+}
+.empresa .objetivo li {
+    list-style-type: none;
+    text-decoration: none;
+}
+.empresa div h1{
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.empresa div h2{
+    color: white;
+    font-style: unset;
+}
+
+
+
+.solucoes ul li{
+    list-style-type: none;
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+   margin: 0%;
+}
+.solucoes .menu{
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    background:linear-gradient(325deg, #D70304 1%, #660303 99%);
+    padding:30px 0;
+    
+
+}
+.solucoes .menu h1{
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    display: flex;
+    font-size: 15px;
+    margin: 0px 0px 0px 30px;
+}
+.solucoes .menu h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    display: flex;
+    font-size: 30px;
+    margin: 0px 0px 0px 30px;
+}
+.solucoes .note ul li{
+  color:white;
+  list-style: circle;
+  list-style-position:inside;
+}
+.solucoes ul{
+    align-items: center;
+    text-align: center;
+}
+.solucoes .casa {
+    width:700px;
+    height:px;
+    padding:0px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 25%;
+    margin-right:35%;
+    list-style-type: none;
+    text-decoration: none;
+}
+.solucoes .note{
+    list-style-type: none;
+    text-decoration: none;
+    width:700px;
+    height:px;
+    padding:0px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 35%;
+}
+.solucoes .horas{
+    list-style-type: none;
+    text-decoration: none;
+    width:700px;
+    height:px;
+    padding:0px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 26%;
+    margin-right: 35%;
+}
+.solucoesnote .menu{
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    background:linear-gradient(325deg, #D70304 1%, #660303 99%);
+    padding:30px 0;
+}
+.solucoesnote .menu h1{
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    display: flex;
+    font-size: 15px;
+    margin: 0px 0px 0px 30px;
+}
+.solucoesnote .menu h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    display: flex;
+    font-size: 30px;
+    margin: 0px 0px 0px 30px;
+}
+.solucoesnote  .imagem{
+    float: left;
+    border: 2px solid red;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    max-width:320px;
+}
+.solucoesnote  .texto{
+    list-style-type: none;
+    text-decoration: none;
+    max-width: 30500px;
+}
+
+
+
+.solucoescasa .menu{
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    background:linear-gradient(325deg, #D70304 1%, #660303 99%);
+    padding:30px 0;
+}
+.solucoescasa .menu h1{
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    display: flex;
+    font-size: 15px;
+    margin: 0px 0px 0px 30px;
+}
+.solucoescasa .menu h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    display: flex;
+    font-size: 30px;
+    margin: 0px 0px 0px 30px;
+}
+.solucoescasa .imagem{
+    float: left;
+    border: 2px solid red;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    max-width: 320px;
+}
+.solucoescasa  .texto{
+    list-style-type: none;
+    text-decoration: none;
+    max-width: 1500px;
+}
+
+
+
+.servico .residencia li a:hover{
+    opacity: 0.5;
+}
+.servico .manutencao li a:hover{
+    opacity: 0.5;
+}
+.servico .suporte li a:hover{
+    opacity: 0.5;
+}
+
+
+
+.contato .menu{
+    list-style-type: none;
+    text-decoration: none;
+    background:linear-gradient(325deg, #D70304 1%, #660303 99%);
+    padding:30px 0;
+     
+}
+.contato .whats {
+    display: flex;
+}
+.contato .menu h1{
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    display: flex;
+    font-size: 15px;
+    margin: 0px 0px 0px 30px;
+}
+.contato .menu h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    display: flex;
+    font-size: 30px;
+    margin: 0px 0px 0px 30px;
+}
+.whats {
+    list-style-type: none;
+    text-decoration: none;
+}
+.email{
+    list-style-type: none;
+    text-decoration: none;
+}
+.local{
+    list-style-type: none;
+    text-decoration: none;
+}
+.insta{
+    list-style-type: none;
+    text-decoration: none;
+}
+.whats a {
+    font-size: 30px;
+    font-weight: 500;
+}
+.whats a:hover{
+    border-bottom: 2px solid white;
+    transition: 0.3s; 
+}
+.email a{
+    font-size: 18px;
+}
+.email a:hover{
+    border-bottom: 2px solid white;
+    transition: 0.3s; 
+}
+.local{
+    font-size: 20px;
+}
+.local a:hover{
+    border-bottom: 2px solid white;
+    transition: 0.3s; 
+}
+
+
+
+.solucoeshoras .imagem{
+    float: left;
+    border: 2px solid red;
+    padding: 5px;
+    margin: 10px 10px 10px 10px;
+    max-width:320px;
+}
+.solucoeshoras .texto{
+    list-style-type: none;
+    text-decoration: none;
+    max-width: 2000px;
+}
+.solucoeshoras .menu{
+    list-style-type: none;
+    text-decoration: none;
+    background:linear-gradient(325deg, #D70304 1%, #660303 99%);
+    padding:30px 0;
+}
+.solucoeshoras .menu h1{
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    display: flex;
+    font-size: 15px;
+    margin: 0px 0px 0px 30px;
+}
+.solucoeshoras .menu h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    display: flex;
+    font-size: 30px;
+    margin: 0px 0px 0px 30px;
+}
+.solucoes .casa .fale1 a:hover{
+    opacity: 0.5;
+}
+.solucoes .note .fale2 a:hover{
+    opacity: 0.5;
+}
+.solucoes .horas .fale3 a:hover{
+    opacity: 0.5;
+}
+.solucoescasa  .fale6 a:hover{
+    opacity: 0.5;
+}
+.solucoeshoras .fale4 a:hover{
+    opacity: 0.5;
+}
+.solucoesnote  .fale5 a:hover{
+    opacity: 0.5;
+}
+.solucoes .casa .fale1 a{
+    border-radius: 50px;
+    background: linear-gradient(325deg, #D70304 0%, #660303 100%);
+    padding: 10px 40px;
+    color: white;
+    top: -10px;
+}
+.solucoes .note .fale2 a{
+    border-radius: 50px;
+    background: linear-gradient(325deg, #D70304 0%, #660303 100%);
+    padding: 10px 40px;
+    color: white;
+}
+.solucoes .horas .fale3 a{
+    border-radius: 50px;
+    background: linear-gradient(325deg, #D70304 0%, #660303 100%);
+    padding: 10px 40px;
+    color: white;
+}
+.solucoeshoras .fale4 a{
+    border-radius: 50px;
+    background: linear-gradient(325deg, #D70304 0%, #660303 100%);
+    padding: 10px 40px;
+    color: white;
+}
+.solucoeshoras .fale4{
+    align-items: center;
+    text-align: center;
+}
+.solucoesnote .texto .fale5 a{
+    border-radius: 50px;
+    background: linear-gradient(325deg, #D70304 0%, #660303 100%);
+    padding: 10px 40px;
+    color: white;
+}
+.solucoesnote .texto .fale5{
+    align-items: center;
+    text-align: center;
+}
+.solucoescasa  .fale6 a{
+    border-radius: 50px;
+    background: linear-gradient(325deg, #D70304 0%, #660303 100%);
+    padding: 10px 40px;
+    color: white;
+ 
+}
+.bordacontato{
+    border: 3px solid #D70304;
+}
+.entrecontato .whats h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+.entrecontato{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    padding: 0px 20px;
+    margin-right: 68%;
+    margin-top: 12%;
+} 
+
+.contato{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
